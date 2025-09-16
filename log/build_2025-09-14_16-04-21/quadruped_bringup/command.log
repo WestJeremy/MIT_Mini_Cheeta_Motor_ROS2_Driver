@@ -1,0 +1,6 @@
+Invoking command in '/home/ws/build/quadruped_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ws/src/quadruped_bringup -DCMAKE_INSTALL_PREFIX=/home/ws/install/quadruped_bringup
+Invoked command in '/home/ws/build/quadruped_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ws/src/quadruped_bringup -DCMAKE_INSTALL_PREFIX=/home/ws/install/quadruped_bringup
+Invoking command in '/home/ws/build/quadruped_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ws/build/quadruped_bringup -- -j24 -l24
+Invoked command in '/home/ws/build/quadruped_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ws/build/quadruped_bringup -- -j24 -l24
+Invoking command in '/home/ws/build/quadruped_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ws/build/quadruped_bringup
+Invoked command in '/home/ws/build/quadruped_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ws/build/quadruped_bringup

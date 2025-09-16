@@ -1,0 +1,13 @@
+[0.009s] Invoking command in '/home/ws/build/mit_mini_cheeta_motor_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ws/build/mit_mini_cheeta_motor_driver -- -j24 -l24
+[0.064s] [ 20%] [32mBuilding CXX object CMakeFiles/mit_mini_cheeta_motor_driver.dir/src/MotorDriver.cpp.o[0m
+[0.269s] [01m[K/home/ws/src/mit_mini_cheeta_motor_driver/src/MotorDriver.cpp:[m[K In function ‘[01m[Kmotor_driver::MotorType motor_driver::[01;32m[KstringToMotorType[m[K(const std::string&)[m[K’:
+[0.269s] [01m[K/home/ws/src/mit_mini_cheeta_motor_driver/src/MotorDriver.cpp:37:22:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[0.269s]    37 |         RCLCPP_ERROR([01;31m[Krclcpp[m[K::get_logger("CANMotor"), "Unknown motor type: %s. Defaulting to GIM8108", motor_type_str.c_str());
+[0.269s]       |                      [01;31m[K^~~~~~[m[K
+[0.271s] [01m[K/home/ws/src/mit_mini_cheeta_motor_driver/src/MotorDriver.cpp:37:9:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_ERROR[m[K’ was not declared in this scope
+[0.271s]    37 |         [01;31m[KRCLCPP_ERROR[m[K(rclcpp::get_logger("CANMotor"), "Unknown motor type: %s. Defaulting to GIM8108", motor_type_str.c_str());
+[0.271s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[0.336s] gmake[2]: *** [CMakeFiles/mit_mini_cheeta_motor_driver.dir/build.make:104: CMakeFiles/mit_mini_cheeta_motor_driver.dir/src/MotorDriver.cpp.o] Error 1
+[0.336s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mit_mini_cheeta_motor_driver.dir/all] Error 2
+[0.336s] gmake: *** [Makefile:146: all] Error 2
+[0.339s] Invoked command in '/home/ws/build/mit_mini_cheeta_motor_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ws/build/mit_mini_cheeta_motor_driver -- -j24 -l24

@@ -1,0 +1,72 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_lifecycle: 28.1.11 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+-- Found hardware_interface: 4.35.0 (/opt/ros/jazzy/share/hardware_interface/cmake)
+-- Found controller_interface: 4.35.0 (/opt/ros/jazzy/share/controller_interface/cmake)
+-- Configuring done (1.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ws/build/mit_mini_cheeta_motor_driver
+[ 80%] [32mBuilding CXX object CMakeFiles/mit_mini_cheeta_motor_driver.dir/src/MotorDriver.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/mit_mini_cheeta_motor_driver.dir/src/ROS2_CAN_Motor.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/mit_mini_cheeta_motor_driver.dir/src/watchdog.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/mit_mini_cheeta_motor_driver.dir/src/CANInterface.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libmit_mini_cheeta_motor_driver.so[0m
+[100%] Built target mit_mini_cheeta_motor_driver
+-- Install configuration: ""
+-- Installing: /home/ws/install/mit_mini_cheeta_motor_driver/share/mit_mini_cheeta_motor_driver/ros2CANMotor_Description.xml
+-- Installing: /home/ws/install/mit_mini_cheeta_motor_driver/share/mit_mini_cheeta_motor_driver/launch
+-- Installing: /home/ws/install/mit_mini_cheeta_motor_driver/share/mit_mini_cheeta_motor_driver/launch/controller_manager.launch.py
+-- Installing: /home/ws/install/mit_mini_cheeta_motor_driver/share/mit_mini_cheeta_motor_driver/config
+-- Installing: /home/ws/install/mit_mini_cheeta_motor_driver/lib/libmit_mini_cheeta_motor_driver.so
+-- Set non-toolchain portion of runtime path of "/home/ws/install/mit_mini_cheeta_motor_driver/lib/libmit_mini_cheeta_motor_driver.so" to ""
+-- Installing: /home/ws/install/mit_mini_cheeta_motor_driver/include
+-- Installing: /home/ws/install/mit_mini_cheeta_motor_driver/include/mit_mini_cheeta_motor_driver
+-- Installing: /home/ws/install/mit_mini_cheeta_motor_driver/include/mit_mini_cheeta_motor_driver/MotorDriver.hpp
+-- Installing: /home/ws/install/mit_mini_cheeta_motor_driver/include/mit_mini_cheeta_motor_driver/ROS2_CAN_Motor.hpp
+-- Installing: /home/ws/install/mit_mini_cheeta_motor_driver/include/mit_mini_cheeta_motor_driver/watchdog.hpp
+-- Installing: /home/ws/install/mit_mini_cheeta_motor_driver/include/mit_mini_cheeta_motor_driver/hex_utils.hpp
+-- Installing: /home/ws/install/mit_mini_cheeta_motor_driver/include/mit_mini_cheeta_motor_driver/CANInterface.hpp
+-- Installing: /home/ws/install/mit_mini_cheeta_motor_driver/include/mit_mini_cheeta_motor_driver/ROS2_CAN_Interface.hpp
+-- Installing: /home/ws/install/mit_mini_cheeta_motor_driver/share/mit_mini_cheeta_motor_driver/environment/library_path.sh
+-- Installing: /home/ws/install/mit_mini_cheeta_motor_driver/share/mit_mini_cheeta_motor_driver/environment/library_path.dsv
+-- Installing: /home/ws/install/mit_mini_cheeta_motor_driver/share/ament_index/resource_index/package_run_dependencies/mit_mini_cheeta_motor_driver
+-- Installing: /home/ws/install/mit_mini_cheeta_motor_driver/share/ament_index/resource_index/parent_prefix_path/mit_mini_cheeta_motor_driver
+-- Installing: /home/ws/install/mit_mini_cheeta_motor_driver/share/mit_mini_cheeta_motor_driver/environment/ament_prefix_path.sh
+-- Installing: /home/ws/install/mit_mini_cheeta_motor_driver/share/mit_mini_cheeta_motor_driver/environment/ament_prefix_path.dsv
+-- Installing: /home/ws/install/mit_mini_cheeta_motor_driver/share/mit_mini_cheeta_motor_driver/environment/path.sh
+-- Installing: /home/ws/install/mit_mini_cheeta_motor_driver/share/mit_mini_cheeta_motor_driver/environment/path.dsv
+-- Installing: /home/ws/install/mit_mini_cheeta_motor_driver/share/mit_mini_cheeta_motor_driver/local_setup.bash
+-- Installing: /home/ws/install/mit_mini_cheeta_motor_driver/share/mit_mini_cheeta_motor_driver/local_setup.sh
+-- Installing: /home/ws/install/mit_mini_cheeta_motor_driver/share/mit_mini_cheeta_motor_driver/local_setup.zsh
+-- Installing: /home/ws/install/mit_mini_cheeta_motor_driver/share/mit_mini_cheeta_motor_driver/local_setup.dsv
+-- Installing: /home/ws/install/mit_mini_cheeta_motor_driver/share/mit_mini_cheeta_motor_driver/package.dsv
+-- Installing: /home/ws/install/mit_mini_cheeta_motor_driver/share/ament_index/resource_index/packages/mit_mini_cheeta_motor_driver
+-- Installing: /home/ws/install/mit_mini_cheeta_motor_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/mit_mini_cheeta_motor_driver
+-- Installing: /home/ws/install/mit_mini_cheeta_motor_driver/share/mit_mini_cheeta_motor_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/ws/install/mit_mini_cheeta_motor_driver/share/mit_mini_cheeta_motor_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/ws/install/mit_mini_cheeta_motor_driver/share/mit_mini_cheeta_motor_driver/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/ws/install/mit_mini_cheeta_motor_driver/share/mit_mini_cheeta_motor_driver/cmake/mit_mini_cheeta_motor_driverConfig.cmake
+-- Installing: /home/ws/install/mit_mini_cheeta_motor_driver/share/mit_mini_cheeta_motor_driver/cmake/mit_mini_cheeta_motor_driverConfig-version.cmake
+-- Installing: /home/ws/install/mit_mini_cheeta_motor_driver/share/mit_mini_cheeta_motor_driver/package.xml

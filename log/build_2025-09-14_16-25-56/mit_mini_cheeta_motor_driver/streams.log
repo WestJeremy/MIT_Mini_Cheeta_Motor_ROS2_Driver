@@ -1,0 +1,10 @@
+[0.009s] Invoking command in '/home/ws/build/mit_mini_cheeta_motor_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ws/build/mit_mini_cheeta_motor_driver -- -j24 -l24
+[0.064s] [ 20%] [32mBuilding CXX object CMakeFiles/mit_mini_cheeta_motor_driver.dir/src/ROS2_CAN_Motor.cpp.o[0m
+[1.572s] [01m[K/home/ws/src/mit_mini_cheeta_motor_driver/src/ROS2_CAN_Motor.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn quadruped_hardware::CANMotor::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’:
+[1.572s] [01m[K/home/ws/src/mit_mini_cheeta_motor_driver/src/ROS2_CAN_Motor.cpp:253:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kmotor_type[m[K’ is not a member of ‘[01m[Kmotor_driver::MotorType[m[K’
+[1.572s]   253 |         can_id, can_bus, motor_driver::MotorType::[01;31m[Kmotor_type[m[K
+[1.572s]       |                                                   [01;31m[K^~~~~~~~~~[m[K
+[2.499s] gmake[2]: *** [CMakeFiles/mit_mini_cheeta_motor_driver.dir/build.make:76: CMakeFiles/mit_mini_cheeta_motor_driver.dir/src/ROS2_CAN_Motor.cpp.o] Error 1
+[2.499s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mit_mini_cheeta_motor_driver.dir/all] Error 2
+[2.499s] gmake: *** [Makefile:146: all] Error 2
+[2.502s] Invoked command in '/home/ws/build/mit_mini_cheeta_motor_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ws/build/mit_mini_cheeta_motor_driver -- -j24 -l24

@@ -1,0 +1,8 @@
+[ 20%] [32mBuilding CXX object CMakeFiles/mit_mini_cheeta_motor_driver.dir/src/ROS2_CAN_Motor.cpp.o[0m
+[01m[K/home/ws/src/mit_mini_cheeta_motor_driver/src/ROS2_CAN_Motor.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn quadruped_hardware::CANMotor::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’:
+[01m[K/home/ws/src/mit_mini_cheeta_motor_driver/src/ROS2_CAN_Motor.cpp:253:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kmotor_type[m[K’ is not a member of ‘[01m[Kmotor_driver::MotorType[m[K’
+  253 |         can_id, can_bus, motor_driver::MotorType::[01;31m[Kmotor_type[m[K
+      |                                                   [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/mit_mini_cheeta_motor_driver.dir/build.make:76: CMakeFiles/mit_mini_cheeta_motor_driver.dir/src/ROS2_CAN_Motor.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mit_mini_cheeta_motor_driver.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

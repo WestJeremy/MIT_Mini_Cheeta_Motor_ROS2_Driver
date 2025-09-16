@@ -1,0 +1,9 @@
+[01m[K/home/ws/src/mit_mini_cheeta_motor_driver/src/ROS2_CAN_Motor.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn quadruped_hardware::CANMotor::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’:
+[01m[K/home/ws/src/mit_mini_cheeta_motor_driver/src/ROS2_CAN_Motor.cpp:228:14:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kmotor_driver::MotorType[m[K’ in assignment
+  228 |     m_type = [01;31m[Kmotor_type[m[K;
+      |              [01;31m[K^~~~~~~~~~[m[K
+      |              [01;31m[K|[m[K
+      |              [01;31m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+gmake[2]: *** [CMakeFiles/mit_mini_cheeta_motor_driver.dir/build.make:76: CMakeFiles/mit_mini_cheeta_motor_driver.dir/src/ROS2_CAN_Motor.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mit_mini_cheeta_motor_driver.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

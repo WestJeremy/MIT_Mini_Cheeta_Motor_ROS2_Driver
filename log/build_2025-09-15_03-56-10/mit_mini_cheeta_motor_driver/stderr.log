@@ -1,0 +1,13 @@
+[01m[K/home/ws/src/mit_mini_cheeta_motor_driver/src/MotorDriver.cpp:[m[K In function ‘[01m[Kmotor_driver::MotorType motor_driver::[01;32m[KstringToMotorType[m[K(const std::string&)[m[K’:
+[01m[K/home/ws/src/mit_mini_cheeta_motor_driver/src/MotorDriver.cpp:17:41:[m[K [01;31m[Kerror: [m[K‘[01m[KAK70_10_V1p1[m[K’ is not a member of ‘[01m[Kmotor_driver::MotorType[m[K’
+   17 |         return motor_driver::MotorType::[01;31m[KAK70_10_V1p1[m[K;
+      |                                         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ws/src/mit_mini_cheeta_motor_driver/src/MotorDriver.cpp:21:22:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+   21 |         RCLCPP_ERROR([01;31m[Krclcpp[m[K::get_logger("CANMotor"), "Unknown motor type: %s. Defaulting to GIM8108", motor_type_str.c_str());
+      |                      [01;31m[K^~~~~~[m[K
+[01m[K/home/ws/src/mit_mini_cheeta_motor_driver/src/MotorDriver.cpp:21:9:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_ERROR[m[K’ was not declared in this scope
+   21 |         [01;31m[KRCLCPP_ERROR[m[K(rclcpp::get_logger("CANMotor"), "Unknown motor type: %s. Defaulting to GIM8108", motor_type_str.c_str());
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/mit_mini_cheeta_motor_driver.dir/build.make:104: CMakeFiles/mit_mini_cheeta_motor_driver.dir/src/MotorDriver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mit_mini_cheeta_motor_driver.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

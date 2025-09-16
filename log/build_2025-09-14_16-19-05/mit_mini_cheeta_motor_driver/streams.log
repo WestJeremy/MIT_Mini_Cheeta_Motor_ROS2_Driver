@@ -1,0 +1,40 @@
+[0.009s] Invoking command in '/home/ws/build/mit_mini_cheeta_motor_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ws/build/mit_mini_cheeta_motor_driver -- -j24 -l24
+[0.060s] [100%] Built target mit_mini_cheeta_motor_driver
+[0.072s] Invoked command in '/home/ws/build/mit_mini_cheeta_motor_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ws/build/mit_mini_cheeta_motor_driver -- -j24 -l24
+[0.073s] Invoking command in '/home/ws/build/mit_mini_cheeta_motor_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ws/build/mit_mini_cheeta_motor_driver
+[0.080s] -- Install configuration: ""
+[0.080s] -- Up-to-date: /home/ws/install/mit_mini_cheeta_motor_driver/share/mit_mini_cheeta_motor_driver/ros2CANMotor_Description.xml
+[0.080s] -- Up-to-date: /home/ws/install/mit_mini_cheeta_motor_driver/share/mit_mini_cheeta_motor_driver/launch
+[0.080s] -- Up-to-date: /home/ws/install/mit_mini_cheeta_motor_driver/share/mit_mini_cheeta_motor_driver/launch/controller_manager.launch.py
+[0.080s] -- Up-to-date: /home/ws/install/mit_mini_cheeta_motor_driver/share/mit_mini_cheeta_motor_driver/config
+[0.080s] -- Up-to-date: /home/ws/install/mit_mini_cheeta_motor_driver/lib/libmit_mini_cheeta_motor_driver.so
+[0.080s] -- Up-to-date: /home/ws/install/mit_mini_cheeta_motor_driver/include
+[0.080s] -- Up-to-date: /home/ws/install/mit_mini_cheeta_motor_driver/include/mit_mini_cheeta_motor_driver
+[0.080s] -- Up-to-date: /home/ws/install/mit_mini_cheeta_motor_driver/include/mit_mini_cheeta_motor_driver/MotorDriver.hpp
+[0.080s] -- Up-to-date: /home/ws/install/mit_mini_cheeta_motor_driver/include/mit_mini_cheeta_motor_driver/ROS2_CAN_Motor.hpp
+[0.080s] -- Up-to-date: /home/ws/install/mit_mini_cheeta_motor_driver/include/mit_mini_cheeta_motor_driver/watchdog.hpp
+[0.080s] -- Up-to-date: /home/ws/install/mit_mini_cheeta_motor_driver/include/mit_mini_cheeta_motor_driver/hex_utils.hpp
+[0.081s] -- Up-to-date: /home/ws/install/mit_mini_cheeta_motor_driver/include/mit_mini_cheeta_motor_driver/CANInterface.hpp
+[0.081s] -- Up-to-date: /home/ws/install/mit_mini_cheeta_motor_driver/include/mit_mini_cheeta_motor_driver/ROS2_CAN_Interface.hpp
+[0.081s] -- Up-to-date: /home/ws/install/mit_mini_cheeta_motor_driver/share/mit_mini_cheeta_motor_driver/environment/library_path.sh
+[0.081s] -- Up-to-date: /home/ws/install/mit_mini_cheeta_motor_driver/share/mit_mini_cheeta_motor_driver/environment/library_path.dsv
+[0.081s] -- Up-to-date: /home/ws/install/mit_mini_cheeta_motor_driver/share/ament_index/resource_index/package_run_dependencies/mit_mini_cheeta_motor_driver
+[0.081s] -- Up-to-date: /home/ws/install/mit_mini_cheeta_motor_driver/share/ament_index/resource_index/parent_prefix_path/mit_mini_cheeta_motor_driver
+[0.081s] -- Up-to-date: /home/ws/install/mit_mini_cheeta_motor_driver/share/mit_mini_cheeta_motor_driver/environment/ament_prefix_path.sh
+[0.081s] -- Up-to-date: /home/ws/install/mit_mini_cheeta_motor_driver/share/mit_mini_cheeta_motor_driver/environment/ament_prefix_path.dsv
+[0.081s] -- Up-to-date: /home/ws/install/mit_mini_cheeta_motor_driver/share/mit_mini_cheeta_motor_driver/environment/path.sh
+[0.081s] -- Up-to-date: /home/ws/install/mit_mini_cheeta_motor_driver/share/mit_mini_cheeta_motor_driver/environment/path.dsv
+[0.081s] -- Up-to-date: /home/ws/install/mit_mini_cheeta_motor_driver/share/mit_mini_cheeta_motor_driver/local_setup.bash
+[0.081s] -- Up-to-date: /home/ws/install/mit_mini_cheeta_motor_driver/share/mit_mini_cheeta_motor_driver/local_setup.sh
+[0.081s] -- Up-to-date: /home/ws/install/mit_mini_cheeta_motor_driver/share/mit_mini_cheeta_motor_driver/local_setup.zsh
+[0.081s] -- Up-to-date: /home/ws/install/mit_mini_cheeta_motor_driver/share/mit_mini_cheeta_motor_driver/local_setup.dsv
+[0.081s] -- Installing: /home/ws/install/mit_mini_cheeta_motor_driver/share/mit_mini_cheeta_motor_driver/package.dsv
+[0.081s] -- Up-to-date: /home/ws/install/mit_mini_cheeta_motor_driver/share/ament_index/resource_index/packages/mit_mini_cheeta_motor_driver
+[0.081s] -- Up-to-date: /home/ws/install/mit_mini_cheeta_motor_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/mit_mini_cheeta_motor_driver
+[0.081s] -- Up-to-date: /home/ws/install/mit_mini_cheeta_motor_driver/share/mit_mini_cheeta_motor_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.081s] -- Up-to-date: /home/ws/install/mit_mini_cheeta_motor_driver/share/mit_mini_cheeta_motor_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.081s] -- Up-to-date: /home/ws/install/mit_mini_cheeta_motor_driver/share/mit_mini_cheeta_motor_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[0.081s] -- Up-to-date: /home/ws/install/mit_mini_cheeta_motor_driver/share/mit_mini_cheeta_motor_driver/cmake/mit_mini_cheeta_motor_driverConfig.cmake
+[0.081s] -- Up-to-date: /home/ws/install/mit_mini_cheeta_motor_driver/share/mit_mini_cheeta_motor_driver/cmake/mit_mini_cheeta_motor_driverConfig-version.cmake
+[0.081s] -- Up-to-date: /home/ws/install/mit_mini_cheeta_motor_driver/share/mit_mini_cheeta_motor_driver/package.xml
+[0.083s] Invoked command in '/home/ws/build/mit_mini_cheeta_motor_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ws/build/mit_mini_cheeta_motor_driver

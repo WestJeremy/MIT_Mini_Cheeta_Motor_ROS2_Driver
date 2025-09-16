@@ -1,0 +1,50 @@
+[0.009s] Invoking command in '/home/ws/build/robot_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ws/build/robot_urdf -- -j24 -l24
+[0.045s] Invoked command in '/home/ws/build/robot_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ws/build/robot_urdf -- -j24 -l24
+[0.046s] Invoking command in '/home/ws/build/robot_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ws/build/robot_urdf
+[0.052s] -- Install configuration: ""
+[0.052s] -- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/urdf
+[0.052s] -- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/urdf/joint_interfaces.xacro
+[0.052s] -- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/urdf/properties_real.xacro
+[0.052s] -- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/urdf/sensors.xacro
+[0.052s] -- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/urdf/meshes
+[0.052s] -- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/urdf/meshes/Thigh.STL
+[0.052s] -- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/urdf/meshes/Front Right Thigh.STL
+[0.052s] -- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/urdf/meshes/Front Right Shin.STL
+[0.052s] -- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/urdf/meshes/Front Left Thigh.STL
+[0.052s] -- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/urdf/meshes/Rear Right Shin.STL
+[0.052s] -- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/urdf/meshes/Front Left Shin.STL
+[0.052s] -- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/urdf/meshes/Rear Right Thigh.STL
+[0.052s] -- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/urdf/meshes/Rear Left Thigh.STL
+[0.053s] -- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/urdf/meshes/Body_bin.STL
+[0.053s] -- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/urdf/meshes/Shin.STL
+[0.053s] -- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/urdf/meshes/Rear Left Shin.STL
+[0.053s] -- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/urdf/meshes/Body.STL
+[0.053s] -- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/urdf/QuadrupedURDF_sim.urdf.xacro
+[0.053s] -- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/urdf/properties.xacro
+[0.053s] -- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/urdf/materials.xacro
+[0.053s] -- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/urdf/QuadrupedURDF_real.urdf.xacro
+[0.053s] -- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/urdf/quadruped_ros2_control.xacro
+[0.053s] -- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/urdf/body.xacro
+[0.053s] -- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/urdf/leg.xacro
+[0.053s] -- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/urdf/gazebo.xacro
+[0.053s] -- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/config
+[0.053s] -- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/config/initial_joint_positions.yaml
+[0.053s] -- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/config/initial_joint_positions_real.yaml
+[0.053s] -- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/launch
+[0.053s] -- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/launch/real_urdf.launch.py
+[0.053s] -- Up-to-date: /home/ws/install/robot_urdf/share/ament_index/resource_index/package_run_dependencies/robot_urdf
+[0.053s] -- Up-to-date: /home/ws/install/robot_urdf/share/ament_index/resource_index/parent_prefix_path/robot_urdf
+[0.054s] -- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/environment/ament_prefix_path.sh
+[0.054s] -- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/environment/ament_prefix_path.dsv
+[0.054s] -- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/environment/path.sh
+[0.054s] -- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/environment/path.dsv
+[0.054s] -- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/local_setup.bash
+[0.054s] -- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/local_setup.sh
+[0.054s] -- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/local_setup.zsh
+[0.054s] -- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/local_setup.dsv
+[0.054s] -- Installing: /home/ws/install/robot_urdf/share/robot_urdf/package.dsv
+[0.054s] -- Up-to-date: /home/ws/install/robot_urdf/share/ament_index/resource_index/packages/robot_urdf
+[0.054s] -- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/cmake/robot_urdfConfig.cmake
+[0.054s] -- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/cmake/robot_urdfConfig-version.cmake
+[0.054s] -- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/package.xml
+[0.066s] Invoked command in '/home/ws/build/robot_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ws/build/robot_urdf

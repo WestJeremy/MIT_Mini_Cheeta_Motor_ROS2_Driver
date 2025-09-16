@@ -1,0 +1,45 @@
+-- Install configuration: ""
+-- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/urdf
+-- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/urdf/joint_interfaces.xacro
+-- Installing: /home/ws/install/robot_urdf/share/robot_urdf/urdf/properties_real.xacro
+-- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/urdf/sensors.xacro
+-- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/urdf/meshes
+-- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/urdf/meshes/Thigh.STL
+-- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/urdf/meshes/Front Right Thigh.STL
+-- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/urdf/meshes/Front Right Shin.STL
+-- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/urdf/meshes/Front Left Thigh.STL
+-- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/urdf/meshes/Rear Right Shin.STL
+-- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/urdf/meshes/Front Left Shin.STL
+-- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/urdf/meshes/Rear Right Thigh.STL
+-- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/urdf/meshes/Rear Left Thigh.STL
+-- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/urdf/meshes/Body_bin.STL
+-- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/urdf/meshes/Shin.STL
+-- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/urdf/meshes/Rear Left Shin.STL
+-- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/urdf/meshes/Body.STL
+-- Installing: /home/ws/install/robot_urdf/share/robot_urdf/urdf/properties.xacro
+-- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/urdf/materials.xacro
+-- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/urdf/QuadrupedURDF_real.urdf.xacro
+-- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/urdf/quadruped_ros2_control.xacro
+-- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/urdf/body.xacro
+-- Installing: /home/ws/install/robot_urdf/share/robot_urdf/urdf/leg.xacro
+-- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/urdf/gazebo.xacro
+-- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/config
+-- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/config/initial_joint_positions.yaml
+-- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/config/initial_joint_positions_real.yaml
+-- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/launch
+-- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/launch/real_urdf.launch.py
+-- Up-to-date: /home/ws/install/robot_urdf/share/ament_index/resource_index/package_run_dependencies/robot_urdf
+-- Up-to-date: /home/ws/install/robot_urdf/share/ament_index/resource_index/parent_prefix_path/robot_urdf
+-- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/environment/path.sh
+-- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/environment/path.dsv
+-- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/local_setup.bash
+-- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/local_setup.sh
+-- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/local_setup.zsh
+-- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/local_setup.dsv
+-- Installing: /home/ws/install/robot_urdf/share/robot_urdf/package.dsv
+-- Up-to-date: /home/ws/install/robot_urdf/share/ament_index/resource_index/packages/robot_urdf
+-- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/cmake/robot_urdfConfig.cmake
+-- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/cmake/robot_urdfConfig-version.cmake
+-- Up-to-date: /home/ws/install/robot_urdf/share/robot_urdf/package.xml

@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-73d4365d167f0692ae67.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mit_mini_cheeta_motor_driver",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "mit_mini_cheeta_motor_driver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mit_mini_cheeta_motor_driver-7b5ca62a9f871684e969.json",
+					"name" : "mit_mini_cheeta_motor_driver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mit_mini_cheeta_motor_driver_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mit_mini_cheeta_motor_driver_uninstall-6185fc9d019ca3462889.json",
+					"name" : "mit_mini_cheeta_motor_driver_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-7b0e627b2db4c678d4dc.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ws/build/mit_mini_cheeta_motor_driver",
+		"source" : "/home/ws/src/mit_mini_cheeta_motor_driver"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,23 @@
+[ 20%] [32mBuilding CXX object CMakeFiles/mit_mini_cheeta_motor_driver.dir/src/ROS2_CAN_Motor.cpp.o[0m
+In file included from [01m[K/usr/include/c++/13/memory:78[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:169[m[K,
+                 from [01m[K/home/ws/src/mit_mini_cheeta_motor_driver/src/ROS2_CAN_Motor.cpp:4[m[K:
+/usr/include/c++/13/bits/unique_ptr.h: In instantiation of ‘[01m[Kstd::__detail::__unique_ptr_t<_Tp> std::[01;32m[Kmake_unique[m[K(_Args&& ...) [35m[K[with _Tp = motor_driver::MotorDriver; _Args = {vector<int, allocator<int> >&, const char*&, __cxx11::basic_string<char, char_traits<char>, allocator<char> >&}; __detail::__unique_ptr_t<_Tp> = __detail::__unique_ptr_t<motor_driver::MotorDriver>][m[K[m[K’:
+[01m[K/home/ws/src/mit_mini_cheeta_motor_driver/src/ROS2_CAN_Motor.cpp:252:68:[m[K   required from here
+[01m[K/usr/include/c++/13/bits/unique_ptr.h:1070:30:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmotor_driver::MotorDriver::MotorDriver(std::vector<int>&, const char*&, std::__cxx11::basic_string<char>&)[m[K’
+ 1070 |     { return unique_ptr<_Tp>([01;31m[Knew _Tp(std::forward<_Args>(__args)...)[m[K); }
+      |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ws/src/mit_mini_cheeta_motor_driver/src/ROS2_CAN_Motor.cpp:8[m[K:
+[01m[K/home/ws/src/mit_mini_cheeta_motor_driver/include/mit_mini_cheeta_motor_driver/MotorDriver.hpp:57:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmotor_driver::MotorDriver::[01;32m[KMotorDriver[m[K(const std::vector<int>&, const char*, motor_driver::MotorType)[m[K’
+   57 |   [01;36m[KMotorDriver[m[K(const std::vector<int>& motor_ids, const char* motor_can_socket,
+      |   [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/ws/src/mit_mini_cheeta_motor_driver/include/mit_mini_cheeta_motor_driver/MotorDriver.hpp:58:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kmotor_driver::MotorType[m[K’
+   58 |               [01;36m[KMotorType motor_type[m[K);
+      |               [01;36m[K~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/ws/src/mit_mini_cheeta_motor_driver/include/mit_mini_cheeta_motor_driver/MotorDriver.hpp:55:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmotor_driver::MotorDriver::[01;32m[KMotorDriver[m[K(const motor_driver::MotorDriver&)[m[K’
+   55 | class [01;36m[KMotorDriver[m[K {
+      |       [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/ws/src/mit_mini_cheeta_motor_driver/include/mit_mini_cheeta_motor_driver/MotorDriver.hpp:55:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+gmake[2]: *** [CMakeFiles/mit_mini_cheeta_motor_driver.dir/build.make:76: CMakeFiles/mit_mini_cheeta_motor_driver.dir/src/ROS2_CAN_Motor.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mit_mini_cheeta_motor_driver.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

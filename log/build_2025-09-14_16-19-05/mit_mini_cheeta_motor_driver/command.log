@@ -1,0 +1,4 @@
+Invoking command in '/home/ws/build/mit_mini_cheeta_motor_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ws/build/mit_mini_cheeta_motor_driver -- -j24 -l24
+Invoked command in '/home/ws/build/mit_mini_cheeta_motor_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ws/build/mit_mini_cheeta_motor_driver -- -j24 -l24
+Invoking command in '/home/ws/build/mit_mini_cheeta_motor_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ws/build/mit_mini_cheeta_motor_driver
+Invoked command in '/home/ws/build/mit_mini_cheeta_motor_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ws/build/mit_mini_cheeta_motor_driver

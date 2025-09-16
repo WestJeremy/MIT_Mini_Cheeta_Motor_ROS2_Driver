@@ -1,0 +1,11 @@
+<library path="mit_mini_cheeta_motor_driver">
+  <class name="mit_mini_cheeta_motor_driver/CANMotor" 
+  type="mit_mini_cheeta_motor_driver::CANMotor" 
+  base_class_type="hardware_interface::SystemInterface">
+    <description>
+      ROS2 CAN Interface for mit_mini_cheeta_motor_driver.
+    </description>
+  </class>
+</library>
+
+

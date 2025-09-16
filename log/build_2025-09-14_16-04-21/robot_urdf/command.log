@@ -1,0 +1,6 @@
+Invoking command in '/home/ws/build/robot_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ws/src/robot_urdf -DCMAKE_INSTALL_PREFIX=/home/ws/install/robot_urdf
+Invoked command in '/home/ws/build/robot_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ws/src/robot_urdf -DCMAKE_INSTALL_PREFIX=/home/ws/install/robot_urdf
+Invoking command in '/home/ws/build/robot_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ws/build/robot_urdf -- -j24 -l24
+Invoked command in '/home/ws/build/robot_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ws/build/robot_urdf -- -j24 -l24
+Invoking command in '/home/ws/build/robot_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ws/build/robot_urdf
+Invoked command in '/home/ws/build/robot_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ws/build/robot_urdf
