@@ -86,7 +86,7 @@ private:
     double cmd_effort;
     double cmd_kp;
     double cmd_kd;
-    double cmd_m_state; // 0 for Ready, 1 for deactivate, 2 activate, 3 zero 
+    double cmd_m_state; // 0 for Ready, 1 for deactivate, 2 activate, 3 zero, 4 E-stop
     double cmd_flip; //multiplier for flip cmd
 
     double state_position;

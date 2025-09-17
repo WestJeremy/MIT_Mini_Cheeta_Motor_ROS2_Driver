@@ -20,23 +20,23 @@ def generate_launch_description():
     )
 
     
-    # # Define the package and launch file paths
-    # hardware_launch = IncludeLaunchDescription(
-    #     PythonLaunchDescriptionSource([
-    #         PathJoinSubstitution([
-    #             FindPackageShare('mit_mini_cheeta_motor_driver'),
-    #             'launch',
-    #             'controller_manager.launch.py'
-    #         ])
-    #     ])
-    # )
+    # Define the package and launch file paths
+    hardware_launch = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource([
+            PathJoinSubstitution([
+                FindPackageShare('mit_mini_cheeta_motor_driver'),
+                'launch',
+                'controller_manager.launch.py'
+            ])
+        ])
+    )
 
     
     # Return launch description with timed execution
     return LaunchDescription([
         urdf_launch
         
-        # hardware_launch
+        hardware_launch
         
         # joint_state_broadcaster_spawner
         # joint_state_publisher_node
