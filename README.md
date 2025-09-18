@@ -80,9 +80,9 @@ Motor parameter entries should follow the following template. All enteries must 
     max_position_limit: Upper position limit expressed in the unite decared by command_type. 
               
 
-   <ros2_control name="quadruped_hardware/CANMotorDriver_FRH" type="system" > 
+   <ros2_control name="mit_mini_cheeta_motor_driver/CANMotorDriver_FRH" type="system" > 
         <hardware>
-            <plugin>quadruped_hardware/CANMotor</plugin>
+            <plugin>mit_mini_cheeta_motor_driver/CANMotor</plugin>
             <param name="joint_name">fr_hip</param> 
             <param name="motor_type">GIM8108</param>
             <param name="can_bus" >can0</param>
